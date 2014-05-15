@@ -21,7 +21,7 @@
 
 
 {
-    'name': 'Currency Update',
+    'name': 'Currency USD Update',
     'version': '0.1',
     'category': 'Tools',
     'complexity': "easy",
