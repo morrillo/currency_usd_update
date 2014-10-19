@@ -9,7 +9,7 @@ class res_currency_rate(osv.osv):
 	
 	def currency_schedule_update(self,cr,uid,context=None):
 
-		url = 'http://www.bluelytics.com.ar/json/last_price'
+		url = 'http://api.bluelytics.com.ar/json/last_price'
 		f = u.urlopen(url)
 		data = f.read()
 		data_json = json.loads(data)
